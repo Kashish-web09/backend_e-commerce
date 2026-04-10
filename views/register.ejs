@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoeHub - Login</title>
+<script src="https://kit.fontawesome.com/21141911a4.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="/">ShoeHub</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</nav>
+
+<main class="container">
+
+    <h1 class="heading">Create Your Account</h1>
+    <p class="reg-para">Join us for free and start shopping today!</p>
+
+    <div class="row align-items-center">
+
+        <!-- Registration Form -->
+        <div class="col-lg-6 mb-4">
+            <div class="form-container">
+
+                <form action="/register" method="post">
+
+                    <!-- Full Name -->
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-user"></i>
+                        </span>
+                        <input type="text" name="fullname" id="fullname" class="form-control" placeholder="Full Name" required>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-envelope"></i>
+                        </span>
+                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                    </div>
+
+                    <!-- Password -->
+                    <div class="input-group mb-1">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-lock"></i>
+                        </span>
+                        <input type="password" name="password" class="form-control" placeholder="Password" required>
+                    </div>
+                    <small class="text-muted">Must be 8-20 characters long.</small>
+
+                    <!-- Confirm Password -->
+                    <div class="input-group mt-3 mb-3">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-lock"></i>
+                        </span>
+                        <input type="password" name="confirmPassword" class="form-control" placeholder="Confirm Password" required>
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-phone"></i>
+                        </span>
+                        <input type="tel" name="phone" class="form-control" placeholder="Phone Number">
+                    </div>
+
+                    <!-- Terms -->
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" required>
+                        <label class="form-check-label">
+                            I agree to the 
+                            <a href="#">Terms & Conditions</a> and 
+                            <a href="#">Privacy Policy</a>
+                        </label>
+                    </div>
+
+                    <!-- Submit -->
+                    <button type="submit" class="btn btn-warning w-100">
+                        Register Account
+                    </button>
+
+                </form>
+            </div>
+        </div>
+
+        <!-- Benefits Section -->
+        <div class="col-lg-6">
+            <div class="benefits-box">
+                <h3 class="mb-4">Benefits of Joining</h3>
+                <hr>
+
+                <ul class="join-list">
+                    <li>
+                        <i class="fa-solid fa-percent" style="background:#ffce80;"></i>
+                        Exclusive Discounts
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-shield" style="background:black;color:white;"></i>
+                        Fast & Secure Checkout
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-box" style="background:#ffce80;"></i>
+                        Order Tracking
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-heart" style="background:red;color:white;"></i>
+                        Wishlist & Favorites
+                    </li>
+                </ul>
+
+                <hr>
+
+                <p>Already have an account?</p>
+                <a href="login.html">Sign In</a>
+            </div>
+        </div>
+
+    </div>
+
+</main>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

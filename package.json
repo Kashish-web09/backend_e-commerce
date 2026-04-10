@@ -1,0 +1,20 @@
+{
+  "name": "shoehu",
+  "version": "1.0.0",
+  "description": "e-commerce",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "ejs": "^5.0.1",
+    "express": "^5.2.1",
+    "express-ejs-layouts": "^2.5.1",
+    "nodemailer": "^8.0.5"
+  }
+}
