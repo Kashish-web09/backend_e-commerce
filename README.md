@@ -61,10 +61,6 @@ npm start
 
 ---
 
-## 🌐 Environment Variables
-
-Create a `.env` file and add:
-
 ```
 PORT=4090
 ```
